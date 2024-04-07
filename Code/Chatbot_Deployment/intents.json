@@ -1,0 +1,960 @@
+{
+    "intents": [
+		 {
+                "tag": "goodbye",
+                "patterns": [
+                        "cya",
+                        "see you",
+                        "bye bye",
+                        "See you later",
+                        "Goodbye",
+                        "I am Leaving",
+                        "Bye","bye",
+                        "Have a Good day",
+                        "talk to you later",
+                        "ttyl",
+                        "i got to go",
+                        "gtg",
+                        "welcome"
+                ],
+                "responses": [
+                        "Goodbye!",
+                        "Come back soon",
+                        "Thanks for visiting"
+                ],
+                "context_set": ""
+        },
+
+		{
+                "tag": "greeting",
+                "patterns": [
+                        "Hi",
+                        "hi",
+                        "hello",
+                        "Hello",
+                        "How are you",
+                        "Hello",
+                        "Good day",
+                        "Whats up",
+                        "how are ya",
+                        "how are you",
+                        "heyy",
+                        "hey",
+                        "whatsup",
+                        "Sara bot"
+                ],
+                "responses": [
+                        "Hello!",
+                        "Good to see you again!",
+                        "Hi there, how can I help?",
+                        "Hi, I'm SCE chatbot. How can I help you?",
+                        "Welcome to SCE chatbot"
+                ],
+                "context_set": ""
+        },
+        {
+            "tag": "sce_about",
+            "patterns": [
+                    "about sara",
+                    "about","sara about",
+                    "about this",
+                    "about saranathan",
+                    "saranathan",
+                    "sce"
+            ],
+            "responses": [
+                    "Saranathan College of Engineering was founded by “Vidya Seva Ratnam”, “Guru Seva Mani” Auditor Sri. K. Santhanam in the year 1998.",
+                    "It is a self financing college approved by AICTE and affiliated to Anna University, Chennai."
+            ],
+            "context_set": ""
+    },{
+        "tag": "infra",
+        "patterns": [
+                "infra",
+                "infrastructure",
+                "block details",
+                "blocks"
+        ],
+        "responses": [
+                "Click <a target='_blank' href='https://www.saranathan.ac.in/aboutus.php?tgt=infras'>here</a> to View Our Infra Details"],
+        "context_set": ""
+},
+{
+        "tag": "payment",
+        "patterns": [
+                "pay",
+                "payment fees",
+                "fee",
+                "fees",
+                "college fee","pay fees","pay fee"
+        ],
+        "responses": [
+                "Click <a target='_blank' href='https://cityunionbank.biz/saranathan/online/'>here</a> to Pay Fees"
+               
+        ],
+        "context_set": ""
+},
+    {
+        "tag": "infra",
+        "patterns": [
+                "infra",
+                "infrastructure",
+                "block details",
+                "blocks"
+        ],
+        "responses": [
+                "Click <a target='_blank' href='https://www.saranathan.ac.in/aboutus.php?tgt=infras'>here</a> to View Our Infra Details"],
+        "context_set": ""
+},
+{
+        "tag": "pictures",
+        "patterns": [
+                "admission images",
+                "admission pics",
+                "joining details",
+                "admission img","admission pic","ad","admit"
+        ],
+        "responses": [
+                "<img src='/static/docs/assets/img/adm.jpg' height='220px' width='300px'>",
+                "<img src='/static/docs/assets/img/ad1.jpg' height='300px' width='240px'>"
+               
+        ],
+        "context_set": ""
+},
+{
+        "tag": "admission_details",
+        "patterns": [
+                "admission",
+                "admission detail",
+                "ad detail"
+        ],
+        "responses": [
+                "Admission Going On..!! Please Contact Admin Cell Soon"
+               
+        ],
+        "context_set": ""
+},
+{
+        "tag": "administrator",
+        "patterns": [
+                "Planning" ,
+                "Monitoring Board",
+                "Board",
+                "Monitoring",
+                "Planning and Monitoring Board"
+        ],
+        "responses": [
+               "Reviewing academic and other related activities.",
+               "Formulating master plan for campus development, facilitating implementation of the provisions of the perspective plan.",
+                "Promoting research and extension activities in the college campus."
+
+        ],
+        "context_set": ""
+},
+
+
+{
+        "tag": "administration",
+        "patterns": [
+
+                "Complaints",
+                 "Redressal Committee",
+                 "Complaints and Redressal Committee",
+                 "Redressal",
+                 "Committee",
+                 "about Complaints and Redressal Committee"
+        
+
+        ],
+        "responses": [
+                  "Examining / inquiring complaints of eve teasing,sexual harassment and any other problems related to women and recommending punishments / remedial measures in such cases."
+        ],
+        "context_set": ""
+},
+
+{
+        "tag": "admin",
+        "patterns": [
+                 "Discipline",
+                 "Welfare Committee",
+                 "Committee",
+                 "Discipline and Welfare Committee",
+                 "about Discipline and Welfare Committee",
+                 "welfare"
+        ],
+        "responses": [
+                  "Examining / inquiring complaints of ragging, eve teasing and harassment of weaker sections and recommending punishments / remedial measures in such cases."
+        ],
+        "context_set": ""
+},
+
+{
+        "tag": "admins",
+        "patterns": [
+                 "Research & Development Cell",
+                 "Research",
+                 "cell",
+                 "about cell",
+                 "Development Cell",
+                 "about Research & Development Cell",
+                 "about Research",
+                 "about Development Cell"
+                 
+        ],
+        "responses": [
+                "Monitoring Ph.D work of faculty, documenting filing of patents and arranging supervising industry interaction for research."
+                
+        ],
+        "context_set": ""
+},
+
+{
+        "tag": "adminst",
+        "patterns": 
+        [
+                 "Entrepreneurship Cell",
+                 "Entrepreneurship"
+        ],
+        "responses": [
+                       "Promoting entrepreneurship and consultancy among faculty, creating awareness among students"                        
+        ],
+        "context_set": ""
+},
+
+{
+        "tag": "adminstr",
+        "patterns": 
+        [
+                "Grievance Redressal Committee",
+                "Grievance",
+                "Redressal Committee",
+                "Redressal",
+                "Committee"
+                 
+        ],
+        "responses": [
+                       "Identifying and redressing the grievances of staff members."            
+        ],
+        "context_set": ""
+},
+
+{
+        "tag": "admission",
+        "patterns": 
+        [
+                "Courses Offered",
+                "course",
+                "offered"
+        ],
+        "responses": [
+                       "B.Tech. - Artificial Intelligence and Data Science, B.E - CSE (Artificial Intelligence and Machine Learning),B.E. - Civil Engineering,B.Tech. - Computer Science & Business System,B.E. - Electrical and Electronics Engineering,B.E. - Instrumentation and Control Engineering,B.Tech. - Information Technology,B.E. - Mechanical Engineering,MBA - Master of Business Administration"
+                       
+        ],
+        "context_set": ""
+},
+
+{
+        "tag": "admiss",
+        "patterns": 
+        [
+                "Admission Norms",
+                "Norms",
+                "norms"      
+        ],
+        "responses": [
+        "Admission is done as per State Government norms.",
+
+        "Admission to various courses is based strictly on merit.",
+                       
+        "The fee structure and assistance schemes ensure that the economic status of the students does not become an inhibiting factor to pursue the programme of study."
+        ],
+        "context_set": ""
+},
+
+{
+        "tag": "admissi",
+        "patterns": 
+        [
+                "Admission Policy - UG",
+                "(As per State Goverment Norms)",
+                "Admission Policy - UG(As per State Goverment Norms)",
+                "Admission Policy",
+                " UG(As per State Goverment Norms)",
+                "Admission",
+                "Policy"
+                    
+        ],
+        "responses": [
+          "Government Quota 65 % - Admission done by Government of Tamil Nadu through, Anna University, Chennai. The admission is based on the marks scored in Mathematics, Physics & Chemistry in +2 examinations.",
+          "Management Quota 35 % - Admission based on Merit list prepared by Consortium of Self Financing Engineering Colleges. (as per Government & Supreme court guidelines)",
+          "AICTE fee waiver scheme 5 % - Merit-cum-means based",
+          "Lateral Entry (Admission to Direct Second Year) 20 % - 65% of 20% Government Quota, and 35% of 20% Management Quota"
+                       
+        ],
+        "context_set": ""
+},
+
+
+{
+        "tag": "admi",
+        "patterns": 
+        [
+                "Scholarship to Students",
+                "Scholarships",
+                "about Scholarship ",
+                "about anna university Scholarship ",
+                "about university Scholarship "
+                    
+        ],
+        "responses": 
+        [
+                "Tamil Nadu Government Welfare SC/ST Scholarship",
+                "Tamil Nadu Government Welfare BC/MBC Scholarship",
+                "Tamil Nadu Government Welfare Minority Scholarship (www.momascholarship.gov.in)",
+                "AICTE Fee Waiver Scheme.",
+                "First Graduate Scheme (Government of Tamilnadu).",
+                "Central Sector Scholarship (www.tndcescholarship.org)",
+                "Scholarships from Vidya Seva Ratnam Santhanam Educational Trust to eligible students on merit-cum-means basis."
+                       
+        ],
+        "context_set": ""
+},
+
+{
+        "tag": "center",
+        "patterns": 
+        [
+               "center for research",
+               "research",
+               "about center for research"      
+        ],
+        "responses": [
+                "Our institution gives utmost importance for research. Ever since its inception in the year 1998, the Institution has taken concerted efforts for Innovation and Research. Research Cell was constituted to strengthen research activities, enhance industry interaction and to foster industry relevant research.",
+
+               " Research Cell provides support and guidance to enable faculty and students to take up research and innovative development relevant to industry as well as society."
+                
+                       
+        ],
+        "context_set": ""
+},
+
+{
+        "tag": "cente",
+        "patterns": 
+        [
+               "Major goals of Research cell",
+               "goals of Research cell",
+               "about goals of Research cell",
+               "about Major goals of Research cell"      
+        ],
+        "responses": [
+
+                "Establish and Nurture Research culture",
+
+                "Establishment of Research labs & Infra structure.",
+                "Encourage Sponsored Research & Enhance facilities.",
+                
+                "Engage in Collaborative Research.",
+               "Research Cell provides support and guidance to enable faculty and students to take up research and innovative development relevant to industry as well as society."
+
+        ],
+        "context_set": ""
+},
+
+
+
+{
+        "tag": "cen",
+        "patterns": 
+        [
+               "objectives of Research cell",
+               "Research cell",
+               " objectives goals of Research cell",
+               "about objectives goals of Research cell",
+               "about Major objectives goals of Research cell"      
+        ],
+        "responses": [
+
+                "To provide inter-disciplinary approach to solving problems related to Mechanical Engineeing, Civil Engineering, Robotics, Embedded System, Instrumentation and Control Engineering, Elecrtical Engineering, Computer Science & Information Technology. etc.",
+                "To prepare and send research proposals to various funding agencies like DST, AICTE, DIT, FIST, DRDO, CSIR, TNSCST, etc.",
+                "To prepare and send proposals to various funding agencies under MODROBS Scheme.",
+                "To promote innovative ideas and concepts in the selected areas and to come up with new product development.",
+                "To publish papers in the refereed journals.",
+                "To apply for Patents for innovative ideas and products.",
+                "To develop course modules for the core subject.",
+                "To conduct workshops, seminars and FDPs in the specialized areas of research."
+               
+        ],
+        "context_set": ""
+},
+
+{
+        "tag": "ce",
+        "patterns": 
+        [
+               "Anna University recognized research centers:",
+               "Anna University recognized "
+        ],
+        "responses": [
+
+                "Electronics & Communication Engineering Department",
+                "Electrical & Electronics Department",
+                "Mechanical Engineering Department"
+                
+               
+        ],
+        "context_set": ""
+},
+
+{
+        "tag": "centerrr",
+        "patterns": 
+        [
+               "Formation of Institute Industry Partnership Cell - EEE",
+               "Formation of Institute Industry Partnership Cell",
+               "Institute Industry Partnership Cell",
+               "Industry Partnership Cell",
+               "Institute"
+        ],
+        "responses": [
+
+                "The department of EEE took a initiative on knowledge sharing by providing consultancy services to the industry by leveraging the expertise of the faculty and the existing laboratory facilities of the department. As a result of continuous effort of the department, the IIPC-EEE cell was formulated on October 2012 with an objective to reduce the gap between industry expectations (practice) and academic offerings (theory) by direct involvement of industry to attain a symbiosis. The IIPC-EEE is headed by a Certified Energy Auditor."
+
+        ],
+        "context_set": ""
+},
+
+{
+        "tag": "ce",
+        "patterns": 
+        [
+               "Quality Improvement Cell",
+               " Improvement Cell",
+               "Quality"
+        ],
+        "responses": [
+
+                    "Quality Improvement Cell (QIC), is an initiative to improve the learning ability of students, by exposing them to e-resources. Saranthan College of Engineering(SCE), has been selected as one of the 21 nodal centers of Anna University to execute the functions of QIC, as per the directions from the Commissioner of Technical Education and Director/Centre for Faculty development, Anna University, Chennai. Under the nodal centre of Saranthan College of Engineering, 16 Engineering colleges in Tiruchirappalli zone are roped in. This was declared in a meeting attended by the Principal and Dean/Academics, at Anna University in the month of October 2013. After the same a QIC, cell was established in our Institute with nominees from respective branches, including the Librarian. By December 2013, 6 senior faculty headed by Dean/Student affairs, attended a one day workshop on the objectives of QIC, conducted by CFD/Anna University."                        
+        ],
+        "context_set": ""
+},
+
+{
+        "tag": "centering",
+        "patterns": 
+        [
+               "Entrepreneurship Development Cell",
+               "Development Cell",
+               "Entrepreneurship"
+        ],
+        "responses": [
+                         "Entrepreneurship Development Cell (EDC) of our institution aims to promote a platform for the students to explore various opportunities in the field of entrepreneurship. The main objective of the cell is to break the prevailing myths of entrepreneurship which acts as a barrier in the minds of students. The cell also aims to overcome the various challenges related to entrepreneurship and grooming all the necessary traits of becoming as successful entrepreneurs."
+        ],
+        "context_set": ""
+},
+
+{
+        "tag": "centering",
+        "patterns": 
+        [
+               "Infosys - Campus Connect",
+               "Campus Connect",
+               "Infosys"
+        ],
+        " responses": [
+                     "Through this Infosys CC the need of academic – industry partnership is strongly felt and the students are trained and made “Industry-Ready”.",
+                     "This has facilitated and promoted student progression and helped in building a sense of professional commitment in the students.",
+                     "The institution conducts training programs for students to impart specific knowledge and enhance their employability under Infosys Campus Connect",
+                     "Infosys also conducts exclusive program called “Inspire Faculty Contest” for members of staff, where they can submit their innovative projects.",
+                     "Saranathan College of Engineering enthusiastically organizes, many such programs through Infosys Campus Connect. The Details of activities from January 2018 is listed below."
+        ],
+        "context_set": ""
+},
+
+
+{
+        "tag": "centering",
+        "patterns": 
+        [
+               "Women Empowerment Cell",
+               "Empowerment",
+               "Women Empowerment ",
+               "Women" 
+        ],
+        " responses": [
+                  "Women Empowerment Cell of Saranathan College of Engineering, Trichy was inaugurated by Dr.N.Gayathri Mathroobootham, M.B.B.S, M.D (O&G), Gynecologist on 26.11.2013 at 3.00p.m. Dr.N.Gayathri inaugurated the cell and delivered a keynote address on women empowerment. In her address, she dwelt on the real life challenges that women are facing and suggested the possible ways to overcome and tackle the problems. She also emphasized the need for daily exercise, so that women are fit enough to improve their performance in all walks of life. Dr.A.Revathy, Principal,SCE gave the presidential address."
+
+        ],
+        "context_set": ""
+},
+
+{
+        "tag": "centeri",
+        "patterns": 
+        [
+               "About E-Yantra",
+               "E-Yantra"
+        ],
+        " responses": [
+           "e-Yantra is a project by IIT Bombay to spread education in Embedded Systems and Robotics. This project has been sponsored by Ministry of Human Resource Development (MHRD) through the National Mission on Education through ICT (NMEICT)."                          
+        ],
+        "context_set": ""
+},
+
+{
+        "tag": "centeri",
+        "patterns": 
+        [
+               "Smart India Internal Hackathon-2020",
+               "SIH 2020",
+               "Smart",
+               "Smart India",
+               "Smart India Internal",
+               "Smart India Internal Hackathon",
+               "about Smart India Internal Hackathon-2020"   
+        ],
+        " responses": [
+                "Smart India Hackathon (SIH) 2020 is a national initiative launched by AICTE and MHRD aimed at providing students with a platform to solve some of the pressing problems we face in our daily lives, and inculcate a culture of product innovation and problem-solving mentality."
+         ],
+        "context_set": ""
+},
+
+{          
+                "tag": "centerio",
+                "patterns": 
+                [
+                       "Department Representatives",
+                       "Department Representatives",
+                       "Representatives",
+                       "Department"
+                       
+                ],
+                " responses": [
+                           "Civil-Mr.G.Venkatesan",
+                           "CSE-Ms.RSenthamil Selvi",
+                           "ECE-Ms.A.Shamim Ban",
+                           "EEE-Dr.K.RajKumar",
+                           "ICE-Mr.P.Thirumurugan",
+                           "IT- Mr.R.Rengaraj alias Muralidhara",
+                           "Mech-Mr.A.Saravanan &Dr.A.Mercy Vasan"
+                ],
+                "context_set": ""
+        },
+
+        {          
+                "tag": "centerioo",
+                "patterns": 
+                [
+                      
+                ],
+                " responses": [
+                           "Civil-Mr.G.Venkatesan",
+                           "CSE-Ms.RSenthamil Selvi",
+                           "ECE-Ms.A.Shamim Ban",
+                           "EEE-Dr.K.RajKumar",
+                           "ICE-Mr.P.Thirumurugan",
+                           "IT- Mr.R.Rengaraj alias Muralidhara",
+                           "Mech-Mr.A.Saravanan &Dr.A.Mercy Vasan"
+                ],
+                "context_set": ""
+        },
+
+        
+        {          
+                "tag": "Departments",
+                "patterns": 
+                [
+                        "Department of Artificial Intelligence and Data Science",
+                        "Department of Artificial Intelligence",
+                        "Artificial Intelligence",
+                        "Data Science",
+                        " Intelligence",
+                        "Artificial"
+
+                      
+                ],
+                " responses": [
+                           
+                        "Started in the year 2021 with an intake of 60 students",
+                         "B.Tech - AI & DS programme is affiliated to Anna University, Chenna"
+                ],
+                "context_set": ""
+        },
+
+        {          
+                "tag": "Departments",
+                "patterns": 
+                [
+                             "civil Engineer",
+                             "civil",
+                             "about civil"
+                ],
+                " responses": [
+                           
+                     "Started in the year 2021 with an intake of 60 students",
+                     "B.Tech - CSBS programme is affiliated to Anna University, Chennai"      
+   ],
+                "context_set": ""
+        },
+
+
+        {          
+                "tag": "Depar",
+                "patterns": 
+                [
+                             "Electronincs and Communication Engineering",
+                             "Communication Engineering",
+                             "Electronincs",
+                             "Electronincs and Communication"
+                ],
+                " responses": [
+                           "1998 Year of start of UG Program with intake as on date 120",
+                           "2004 Year of start of PG Program with intake as on date 18",
+                           "2013 Year of Regonization for Ph.D Program with number of scholars as on date 16",
+                           "UG program is permanently affiliated to Anna University, Chennai"
+                            ],
+                "context_set": ""
+        },
+
+
+        {          
+                "tag": "Departm",
+                "patterns": 
+                [
+                             "Electronincs and Communication Engineering",
+                             "Communication Engineering",
+                             "Electronincs",
+                             "Electronincs and Communication"
+                ],
+                " responses": [
+                     "The Electronics and Communication Engineering department in its need to pursue its agenda in teaching, training and research enjoys long standing relationships with industry, academia, and research organizations of national importance."                     
+                ],
+
+                "context_set": ""
+        },
+
+        {          
+                "tag": "Departme",
+                "patterns": 
+                [
+                        "Instrument and control Engineering",
+                        "control Engineering",
+                        "Instrument"
+                ],
+                "responses": 
+                [
+                        "The department in its need to pursue its agenda in teaching, training and research enjoys long standing relationships with industry, academia, and research organizations of national importance."      
+
+                                ],
+
+            "context_set": ""
+        },
+
+
+        {          
+                "tag": "Departmentatio",
+                "patterns": 
+                [
+                        "Department of Management Studies (MBA)",
+                        "MBA",
+                        "about MBA",
+                        " Management Studies (MBA)",
+                        "Management Studies"     
+                ],
+                "responses": 
+                [
+                                       "MBA programme in Saranathan provides a comprehensive learning & exciting experience to gain and augment the necessary skills for this contemporary business scenario."
+                                       
+                ],
+
+            "context_set": ""
+        },
+
+
+        {          
+                "tag": "Common Facilities",
+                "patterns": 
+                [
+                           "Computer Support Group",
+                           "Support Group",
+                           "Computer Support"
+                           
+                ],
+                " responses": [
+                        "LAN has been designed with a Full-duplex Gigabit Ethernet backbone offering an aggregate bandwidth of 10 Gbps between different Switches using Single mode fiber. All the switches are linked through OFC"
+                 ],
+
+                "context_set": ""
+        },
+
+
+        {          
+                "tag": "Common Facilitie",
+                "patterns": 
+                [
+                          "Libraries",
+                          "about Libraries"
+                           
+                ],
+                " responses": [
+                        "The library is located in the MBA Block. It is a building with ground floor and first floor, and is strategically placed for access from all departments. It spreads over a vast area of 802 sqm. The ground floor is the area to store the books and it contains the reading section. The first floor is exclusively allocated for digital section and reference section"
+                              ],
+
+                "context_set": ""
+        },
+
+        {          
+                "tag": "Common Faciliti",
+                "patterns": 
+                [
+                          "Transport",
+                          "about Transport"
+                           
+                ],
+                " responses": [
+               "The College has a fleet of buses to facilitate the to and fro transport of students. A fleet of twenty five buses are operated from different parts of the neighbouring areas to bring the students and staff to the college premises in time. In addition, a number of state owned and private town and mofussil buses ply via the college and this place is easily accessible from Tiruchi Bus stand and Railway station. The Government of Tamilnadu has arranged an exclusive bus to ply between Mainguard gate and our college, both in the morning and evening."
+ 
+                        ],
+
+                "context_set": ""
+        },
+
+
+        {          
+                "tag": "Common Facilit",
+                "patterns": 
+                [
+                          "Canteen",
+                          "about Canteen"
+                           
+                ],
+                " responses": [
+                         "Canteen facilities with a dining room annexe are available at the Campus and quality vegetarian food is served during the college days.",
+                         "Separate STD booth with Xerox facility and a Stationery Store are available for the benefit of students."
+                ],
+
+                "context_set": ""
+        },
+
+        {          
+                "tag": "Common Facilit",
+                "patterns": 
+                [
+                          "Hostel Facilities"
+                           
+                ],
+                " responses": [
+                        "Saranathan College of Engineering has excellent separate Hostel facilities for boys and girls."
+                ],
+
+                "context_set": ""
+        },
+
+
+        {          
+                "tag": "Common Facili",
+                "patterns": 
+                [
+                          "Hostel Facilities",
+                          "Boys Hostal Facilities"
+                           
+                ],
+                " responses": [
+                                  
+                        "Spacious, well ventilated and well lighted rooms with cots, tables, chairs and fans.",
+                        "Hygenic kitchen and dining hall where wholesome vegetarian food is served.",
+                        "Library with large number of text and reference books.",
+                      "Generation backup to ensure uninterrupted power, supply during study hours.",
+"Mini computer center with 10 Mbps internet connectivity.",
+"Wi-fi facility.",
+"Recreation hall",
+"Pure drinking water from RO plant.",
+"Solar water heater for hot water during winter.",
+"Playgrounds of the college near the hostel."
+                                             
+                                              
+                                                                    
+                                          
+                ],
+
+                "context_set": ""
+        },
+
+
+        {          
+                "tag": "Common Facili",
+                "patterns": 
+                [
+                          "Girls Hostel Facilities",
+                          "Girls Hostel Facilities"
+                           
+                ],
+                " responses": [
+
+                        "The girls hostel, run by the college, though not located within the college campus,is just 6 KM away from the college on the Trichy-Viralimali national highway. The hostel can accommodate 250 students.",
+                        
+                       " The available facilities are:",
+                        
+                       " Well ventilated, well lighted rooms and spacious rooms with cots, tables, chairs and fans.",
+                        "Pure drinking water from RO plant.",
+                        "Generation backup",
+                        "Mini computer center with 10 Mbps internet connectivity and Wi-Fi connectivity",
+                        "Recreation hall",
+                        "Hygenic kitchen and dining hall serving wholesome vegetarian food.",
+                        "Sports facilities",
+                        "Bus facility to transport the students from Hostel to college and back.",
+                        "24-Hour all round security service to ensure safety of inmates" 
+
+                ],
+
+                "context_set": ""
+        },
+
+        {          
+                "tag": "Common Facil",
+                "patterns": 
+                [
+                          "Sports Facilities",
+                          "physical education",
+                          "Indoor games",
+                          "Outdoor games",
+                          "Games"
+                           
+                ],
+                " responses": [
+                            "Table Tennis,ChessSmall Gym & Weight Training Equipments",
+                            "Basketball Court,Tennis Court,Football Field,Volleyball Court,Ball Badminton Court,Kabaddi Court,Cricket Ground(Turf Wicket),Cricket Ground(Matting Wicket),Cricket Net Practice(Turf),Cricket Net Practice(Matting Wicket),Hockey Field,Kho-Kho Court,200 Meters Track & Field,Cricket Ground Turf (New)"
+                              ],
+
+                "context_set": ""
+        },
+
+
+        {          
+                "tag": "Placements",
+                "patterns": 
+                [
+                          "Placement Cell",
+                          "Placement",
+                          "about Placement Cell"
+                           
+                ],
+                " responses":  [    
+                                "The Placement Cell is an interface between the Corporate world and the students of SCE. It enables the students to make better and informed career choices. The Placement Cell invites industries to share their knowledge and experience with students through guest lectures, workshops, presentations and informal get-together. The Placement Cell also organizes the placement process including Summer training and Final placements. The Cell manages and facilitates on-campus recruitment processes including pre-placement presentations by potential employers to highlight the issues, expectations and professional opportunities, unique to the company and industry. Students of SCE have been placed in Domestic, Global and Public Sector Firms.The Training and Placement Cell takes care of the Campus Connect Programme."
+                               ],
+
+                "context_set": ""
+        },
+
+        {          
+                "tag": "Placementsc",
+                "patterns": 
+                [
+                          "contact Placement Cell",
+                          "contact Placement",
+                          "about contact  Placement Cell"
+                           
+                ],
+                " responses":  [    
+
+                "Dr. S.M. Girirajkumar Head of T & P Contact Phone: 848991521 Email: tp@saranathan.ac.in Saranathan College of Engineering Tiruchirappalli"                     
+        ],
+
+                "context_set": ""
+        },
+
+        {          
+                "tag": "IEEE",
+                "patterns": 
+                [
+                          "about IEE ",
+                          "about iee",
+                          "about iee vision"
+                           
+                ],
+                " responses":  
+                [    
+              "IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity.",
+              "IEEE and its members inspire a global community through highly-cited publications, conferences, technology standards, and professional and educational activities."
+               ],
+
+                "context_set": ""
+        },
+
+
+        {          
+                "tag": "IEEE",
+                "patterns": 
+                [
+                          "admission",
+                          "about admission"
+                ],
+                " responses":  [    
+                     "For admission related queries please contact:+91-8489915214+91-8489915224"
+                               ],
+                "context_set": ""
+        },
+
+        {          
+                "tag": "admissio",
+                "patterns": 
+                [
+                          "about IEE ",
+                          "about iee",
+                          "about iee vision"
+                           
+                ],
+                " responses":  [    
+              "IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity.",
+
+              "IEEE and its members inspire a global community through highly-cited publications, conferences, technology standards, and professional and educational activities."
+        
+                         ],
+
+                "context_set": ""
+        },
+
+        {          
+                "tag": "Vission",
+                "patterns": 
+                [
+                        "college vission",
+                        "saranathan vission",
+                        "about saranathan vission"
+                           
+                ],
+                "responses":  [    
+                               "Impart an inclusive engineering education that beyond being a facilitator for a career and rudimentary skills, equips the students to offer ethically & environmentally conscious solutions to societal issues."
+                              ],
+
+                 "context_set": ""
+        },
+
+        {          
+                "tag": "missions",
+                "patterns": 
+                [
+                        "college mission",
+                        "saranathan mission",
+                        "about saranathan vission"
+                           
+                ],
+                "responses":  [    
+
+                                     
+        "Develop the Institution into a Model Self Financing College of Engineering and Technology. Deliver professional Training to our students with State of the art Laboratories and converting them into Technocrats of international repute.",
+
+        "Create a nurturing, holistic environment of engineering education to facilitate every student realize their full potential.",
+       
+        "Strive to make the students strong in basic concepts armed with appropriate skills to enhance one’s ability to apply the knowledge to provide solutions to real time issues.",
+       
+        "Maintain an ambience that facilitates the students to strengthen their ethical value systems."
+       
+                        
+                               ],
+
+                 "context_set": ""
+        }
+
+          ]
+}

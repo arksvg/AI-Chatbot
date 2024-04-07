@@ -1,0 +1,28 @@
+      
+
+    
+    # try:
+    #     for jsonTag in dt['intent']:
+    #         if(jsonTag['tag'] == tag):
+    #             print(type(jsonTag['patterns']))
+                
+    #             a1= jsonTag['patterns'].append('hello')
+    #             json.dump(a1, file)
+                
+    #             a2 = jsonTag['responses'].append(response)
+    #             json.dump(a2, file)
+    #             # # print(jsonTag['patterns'])
+    #             print(f'Pattern : {pattern}, Res: {response}')
+    #             file.close()
+    #     return 'Data added successfully'
+        
+    # except KeyError as e:
+    #     print(e)
+
+#     return 'Error occured'
+
+# a = insertData("greeting", "Hi", "hello")
+# print(a)
+
+
+
